@@ -45,6 +45,17 @@
 <body>
   <div id="app">
     
+      <canvas class="fireworks"></canvas>
+      <style>
+        .fireworks {
+          position: fixed;
+          left: 0;
+          top: 0;
+          z-index: 99999;
+          pointer-events: none;
+        }
+      </style>
+      
       
     <main class="content on">
       <section class="outer">
@@ -56,9 +67,9 @@
             <a href="https://weibo.com/u/5861485999/home?wvr=5" target="_blank" class="search-title"
                 >
                 
-                <img src="/images/ayer.png">
+                <img src="https://image.baidu.com/search/detail?ct=503316480&z=0&ipn=d&word=%E5%BE%AE%E5%8D%9A%E5%9B%BE%E6%A0%87&step_word=&hs=2&pn=70&spn=0&di=193270&pi=0&rn=1&tn=baiduimagedetail&is=0%2C0&istype=0&ie=utf-8&oe=utf-8&in=&cl=2&lm=-1&st=undefined&cs=2137236501%2C1993310451&os=965864322%2C1107205228&simid=4217832069%2C509246444&adpicid=0&lpn=0&ln=1252&fr=&fmq=1607606152257_R&fm=&ic=undefined&s=undefined&hd=undefined&latest=undefined&copyright=undefined&se=&sme=&tab=0&width=undefined&height=undefined&face=undefined&ist=&jit=&cg=&bdtype=0&oriquery=&objurl=http%3A%2F%2Fbig5.gmw.cn%2Fg2b%2FIT.gmw.cn%2Fattachement%2Fjpg%2Fsite2%2F20130110%2F002564a5cda71258898527.jpg&fromurl=ippr_z2C%24qAzdH3FAzdH3Fkt2c_z%26e3B24o_z%26e3BvgAzdH3F2dkAzdH3FIT_z%26e3B24o_z%26e3BvgAzdH3Fda8n-a8AzdH3F8aAzdH3Fv5gpjgp_mndnb9d_z%26e3Bip4&gsm=46&rpstart=0&rpnum=0&islist=&querylist=&force=undefined">
                 
-                Ayer主题
+                微博
             </a>
         </li>
         
@@ -246,13 +257,13 @@
   <div class="reward-box">
     
     <div class="reward-item">
-      <img class="reward-img" src="https://cdn.jsdelivr.net/gh/Shen-Yu/cdn/img/alipay.jpg">
+      <img class="reward-img" src="/images/alipayr.jpg">
       <span class="reward-type">支付宝</span>
     </div>
     
     
     <div class="reward-item">
-      <img class="reward-img" src="https://cdn.jsdelivr.net/gh/Shen-Yu/cdn/img/wechat.jpg">
+      <img class="reward-img" src="/images/wechatz.jpg">
       <span class="reward-type">微信</span>
     </div>
     
@@ -394,6 +405,11 @@
 <!-- ClickLove -->
 
 <!-- ClickBoom1 -->
+
+<script src="https://cdn.jsdelivr.net/npm/animejs@latest/anime.min.js"></script>
+
+<script src="/js/clickBoom1.js"></script>
+
 
 <!-- ClickBoom2 -->
 
