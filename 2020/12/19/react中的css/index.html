@@ -86,7 +86,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
             <span class="post-meta-item-text"> Word count:</span>
-            <span class="post-count">123</span>
+            <span class="post-count">184</span>
         </span>
     </span>
 
@@ -110,12 +110,17 @@
   
     <div class="article-entry" itemprop="articleBody">
        
-  <h2 id="在react写css的方法有很多"><a href="#在react写css的方法有很多" class="headerlink" title="在react写css的方法有很多"></a>在react写css的方法有很多</h2><p>可以通过内联样式,外部引入普通css来达到自己的效果</p>
-<p>也有用css modules来进行书写的，然而还有一种写在</p>
-<p>jsx里面的css，css in js是引入第三方库来将样式写入</p>
-<p>javascript中的方式。尽管这种方式有悖于样式与逻辑</p>
-<p>分离，但是在一定程度上更灵活，而且可以方便使用</p>
-<p>JavaScript的状态，随时做到样式调整。</p>
+  <h2 id="在react写css的方法有很多"><a href="#在react写css的方法有很多" class="headerlink" title="在react写css的方法有很多"></a>在react写css的方法有很多</h2><p>可以通过内联样式,外部引入普通css来达到自己的效果，也有用css modules来进行书写的。在react中，我个人比较喜欢一种方式，也可称之为css in js。顾名思义该样式文件后缀名也是.js。在react中通过第三方库引入，我通过yarn管理</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yarn add styled-components</span><br></pre></td></tr></table></figure>
+
+<p>styled-components的本质是通过函数的调用，最终创建出一个组件：</p>
+<ul>
+<li><p>这个组件会被自动添加上一个不重复的class</p>
+</li>
+<li><p>styled-components会给class添加相关的样式</p>
+</li>
+</ul>
+<p>它能在逻辑上与js有良好的沟通，对于程序员逻辑的构思我认为是有好处的。</p>
  
       <!-- reward -->
       
@@ -197,11 +202,15 @@
    
   <nav class="article-nav">
     
-    
-      <a href="/2020/12/09/hello-world/" class="article-nav-link">
-        <strong class="article-nav-caption">下一篇</strong>
-        <div class="article-nav-title">Hello World</div>
+      <a href="/2021/02/06/ES6/" class="article-nav-link">
+        <strong class="article-nav-caption">上一篇</strong>
+        <div class="article-nav-title">
+          
+            ES6
+          
+        </div>
       </a>
+    
     
   </nav>
 
@@ -342,10 +351,6 @@
     
     <li class="nav-item">
       <a class="nav-item-link" href="/tags">标签</a>
-    </li>
-    
-    <li class="nav-item">
-      <a class="nav-item-link" href="/tags/%E6%97%85%E8%A1%8C/">旅行</a>
     </li>
     
     <li class="nav-item">

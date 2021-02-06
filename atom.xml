@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2020-12-19T09:23:15.753Z</updated>
+  <updated>2021-02-06T13:02:51.642Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,18 +17,18 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>react中的css</title>
-    <link href="http://example.com/2020/12/19/react%E4%B8%AD%E7%9A%84css/"/>
-    <id>http://example.com/2020/12/19/react%E4%B8%AD%E7%9A%84css/</id>
-    <published>2020-12-19T09:12:57.000Z</published>
-    <updated>2020-12-19T09:23:15.753Z</updated>
+    <title>ES6</title>
+    <link href="http://example.com/2021/02/06/ES6/"/>
+    <id>http://example.com/2021/02/06/ES6/</id>
+    <published>2021-02-06T12:28:44.000Z</published>
+    <updated>2021-02-06T13:02:51.642Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;在react写css的方法有很多&quot;&gt;&lt;a href=&quot;#在react写css的方法有很多&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;h2 id=&quot;es6语法新特性&quot;&gt;&lt;a href=&quot;#es6语法新特性&quot; class=&quot;headerlink&quot;</summary>
         
       
     
@@ -38,18 +38,18 @@
   </entry>
   
   <entry>
-    <title>Hello World</title>
-    <link href="http://example.com/2020/12/09/hello-world/"/>
-    <id>http://example.com/2020/12/09/hello-world/</id>
-    <published>2020-12-09T03:15:57.188Z</published>
-    <updated>2020-12-09T03:15:57.188Z</updated>
+    <title>react中的css</title>
+    <link href="http://example.com/2020/12/19/react%E4%B8%AD%E7%9A%84css/"/>
+    <id>http://example.com/2020/12/19/react%E4%B8%AD%E7%9A%84css/</id>
+    <published>2020-12-19T09:12:57.000Z</published>
+    <updated>2021-02-06T12:24:44.675Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;在react写css的方法有很多&quot;&gt;&lt;a href=&quot;#在react写css的方法有很多&quot; class=&quot;headerlink&quot;</summary>
         
       
     
