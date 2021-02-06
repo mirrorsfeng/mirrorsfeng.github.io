@@ -23,6 +23,9 @@
 
 <h4 id="7-Map-and-WeakMap"><a href="#7-Map-and-WeakMap" class="headerlink" title="7.Map and WeakMap"></a>7.Map and WeakMap</h4><p>map跟Weakmap都是以键值对存储的数据结构集，跟java的hashmap有类似的地方。</p>
 ]]></content>
+      <tags>
+        <tag>js语法</tag>
+      </tags>
   </entry>
   <entry>
     <title>react中的css</title>
@@ -39,5 +42,8 @@
 </ul>
 <p>它能在逻辑上与js有良好的沟通，对于程序员逻辑的构思我认为是有好处的。</p>
 ]]></content>
+      <tags>
+        <tag>学习react</tag>
+      </tags>
   </entry>
 </search>

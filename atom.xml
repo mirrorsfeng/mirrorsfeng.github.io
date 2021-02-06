@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-02-06T13:02:51.642Z</updated>
+  <updated>2021-02-06T13:09:09.448Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://example.com/2021/02/06/ES6/"/>
     <id>http://example.com/2021/02/06/ES6/</id>
     <published>2021-02-06T12:28:44.000Z</published>
-    <updated>2021-02-06T13:02:51.642Z</updated>
+    <updated>2021-02-06T13:09:09.448Z</updated>
     
     
       
@@ -35,6 +35,8 @@
     
     
     
+    <category term="js语法" scheme="http://example.com/tags/js%E8%AF%AD%E6%B3%95/"/>
+    
   </entry>
   
   <entry>
@@ -42,7 +44,7 @@
     <link href="http://example.com/2020/12/19/react%E4%B8%AD%E7%9A%84css/"/>
     <id>http://example.com/2020/12/19/react%E4%B8%AD%E7%9A%84css/</id>
     <published>2020-12-19T09:12:57.000Z</published>
-    <updated>2021-02-06T12:24:44.675Z</updated>
+    <updated>2021-02-06T13:09:21.407Z</updated>
     
     
       
@@ -55,6 +57,8 @@
     
     
     
+    
+    <category term="学习react" scheme="http://example.com/tags/%E5%AD%A6%E4%B9%A0react/"/>
     
   </entry>
   
